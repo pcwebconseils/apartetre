@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div>
+    <main>
       <Logo />
-    </div>
+    </main>
   </div>
 </template>
 
