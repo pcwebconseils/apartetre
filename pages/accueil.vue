@@ -38,14 +38,12 @@
         <h2
           class="mb-8 uppercase text-white text-2xl font-bold tracking-widest"
         >
-          Our Expertise
+          La phrase d'accroche
         </h2>
         <p
           class="font-serif text-gray-500 text-base md:text-xl max-w-2xl leading-loose"
         >
-          RJ Investments brings luxury living to the rental market through
-          bespoke renovations, at affordable prices with quality property
-          management.
+          Le slogan, rappel de la ville et du nom, institut de beauté et espace détente spa.
         </p>
 
         <span
