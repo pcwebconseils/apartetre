@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TheHeader />
     <div class="-mt-24 pt-24 w-full h-screen bg-white flex flex-wrap">
       <div
         class="px-12 md:-px-0 w-full md:w-4/12 bg-white flex items-center justify-start md:justify-end"
@@ -24,7 +25,7 @@
 
       <div class="-mt-64 md:mt-0 w-full md:flex-1">
         <img
-          src="https://images.unsplash.com/photo-1545022388-43a762e088b0?w=1400"
+          src="~/assets/img/roberto-nickson-YCW4BEhKluw-unsplash (3).jpg"
           class="w-full h-full object-cover"
         />
       </div>
@@ -70,7 +71,7 @@
           <h3
             class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
           >
-            The Portfolio
+            Les soins
           </h3>
           <p class="text-lg md:text-xl font-serif text-gray-400">
             Completed Builds
@@ -78,7 +79,7 @@
         </a>
 
         <img
-          src="https://images.unsplash.com/photo-1489171078254-c3365d6e359f?w=1200"
+          src="~/assets/img/chalo-garcia-i5TVtJe7TlM-unsplash.jpg"
           class="absolute top-0 left-0 block w-full h-full object-cover"
         />
       </div>
@@ -103,7 +104,7 @@
           <h3
             class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
           >
-            The Projects
+            L'espace Spa
           </h3>
           <p class="text-lg md:text-xl font-serif text-gray-400">
             Current Developments
@@ -111,7 +112,7 @@
         </a>
 
         <img
-          src="https://images.unsplash.com/photo-1537726235470-8504e3beef77?w=1200"
+          src="~/assets/img/jared-rice-PibraWHb4h8-unsplash.jpg"
           class="absolute top-0 left-0 block w-full h-full object-cover"
         />
       </div>
@@ -136,10 +137,19 @@
           <h3
             class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
           >
-            Our Properies
+            L'espace détente
           </h3>
           <p class="text-lg md:text-xl font-serif text-gray-400">
-            Complete Collection
+            Un espace dédié à la détente. et encore du texte parce que nous
+            allons manquer de contenu.
+          </p>
+          <p class="text-lg md:text-xl font-serif text-gray-400">
+            Un espace dédié à la détente. et encore du texte parce que nous
+            allons manquer de contenu.
+          </p>
+          <p class="text-lg md:text-xl font-serif text-gray-400">
+            Un espace dédié à la détente. et encore du texte parce que nous
+            allons manquer de contenu.
           </p>
         </a>
 
@@ -195,37 +205,5 @@
         </a>
       </div>
     </div>
-
-    <!-- FOOTER / -->
-    <div class="bg-gray-800 pb-24">
-      <div class="bg-white max-w-6xl mx-auto py-12">
-        <div class="px-12 md:px-24">
-          <a
-            href="#"
-            class="block mb-2 uppercase text-gray-800 text-lg font-bold tracking-widest hover:text-yellow-600"
-            >0800 123 456</a
-          >
-          <a
-            href="#"
-            class="block uppercase text-gray-800 text-lg font-bold tracking-widest hover:text-yellow-600"
-            >hello@digizu.co.uk</a
-          >
-        </div>
-
-        <div class="flex py-12">
-          <div class="flex-1 border-b-8 border-gray-200"></div>
-          <div class="w-32"></div>
-          <div class="flex-1 border-b-8 border-gray-200"></div>
-        </div>
-
-        <div
-          class="flex flex-wrap justify-between px-24 text-sm font-serif text-gray-500"
-        >
-          <div class="w-full md:flex-1">&copy; 2019 copyright</div>
-          <div class="w-full md:flex-1 md:text-right">Powered by Tailwind</div>
-        </div>
-      </div>
-    </div>
-    <!-- / FOOTER -->
   </div>
 </template>

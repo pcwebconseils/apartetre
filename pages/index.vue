@@ -1,7 +1,9 @@
 <template>
   <div>
     <main>
-      <Logo />
+      <nuxt-link to="/accueil">
+        <Logo />
+      </nuxt-link>
     </main>
   </div>
 </template>

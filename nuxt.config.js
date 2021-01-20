@@ -36,6 +36,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    // image optimize
+    '@aceforth/nuxt-optimized-images',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
