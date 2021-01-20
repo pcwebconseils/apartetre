@@ -43,7 +43,8 @@
         <p
           class="font-serif text-gray-500 text-base md:text-xl max-w-2xl leading-loose"
         >
-          Le slogan, rappel de la ville et du nom, institut de beauté et espace détente spa.
+          Le slogan, rappel de la ville et du nom, institut de beauté et espace
+          détente spa.
         </p>
 
         <span
