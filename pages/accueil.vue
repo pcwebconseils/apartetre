@@ -36,12 +36,12 @@
 
       <div class="flex-1 relative">
         <h2
-          class="mb-8 uppercase text-white text-2xl font-bold tracking-widest"
+          class="mb-8 uppercase text-yellow-900 text-2xl font-bold tracking-widest"
         >
           La phrase d'accroche
         </h2>
         <p
-          class="font-serif text-gray-500 text-base md:text-xl max-w-2xl leading-loose"
+          class="font-serif text-gray-500 text-white md:text-xl max-w-2xl leading-loose"
         >
           Le slogan, rappel de la ville et du nom, institut de beauté et espace
           détente spa.
@@ -65,21 +65,21 @@
       <div class="w-full md:w-8/12 bg-gray-100 py-12 relative flex">
         <a
           href="#"
-          class="block relative z-10 bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
+          class="block relative z-10 shadow-xl bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
         >
           <h3
-            class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
+            class="mb-2 uppercase text-gray-800 pl-3 text-3xl font-bold tracking-widest"
           >
             Les soins
           </h3>
-          <p class="text-lg md:text-xl font-serif text-gray-400">
+          <p class="text-lg md:text-xl pl-3 font-serif text-gray-400">
             Completed Builds
           </p>
         </a>
 
         <img
           src="~/assets/img/chalo-garcia-i5TVtJe7TlM-unsplash.jpg"
-          class="absolute top-0 left-0 block w-full h-full object-cover"
+          class="absolute top-0 border border-yellow-900 left-0 block w-full h-full object-cover"
         />
       </div>
 
@@ -98,21 +98,21 @@
       <div class="w-full md:w-8/12 bg-gray-100 py-12 relative flex">
         <a
           href="#"
-          class="block relative z-10 bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
+          class="block relative z-10 shadow-xl bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
         >
           <h3
-            class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
+            class="mb-2 uppercase text-gray-800 pl-3 text-3xl font-bold tracking-widest"
           >
             L'espace Spa
           </h3>
-          <p class="text-lg md:text-xl font-serif text-gray-400">
+          <p class="text-lg md:text-xl pl-3 font-serif text-gray-400">
             Current Developments
           </p>
         </a>
 
         <img
           src="~/assets/img/jared-rice-PibraWHb4h8-unsplash.jpg"
-          class="absolute top-0 left-0 block w-full h-full object-cover"
+          class="absolute top-0 border border-yellow-900 left-0 block w-full h-full object-cover"
         />
       </div>
 
@@ -131,7 +131,7 @@
       <div class="w-full md:w-8/12 bg-gray-100 py-12 relative flex">
         <a
           href="#"
-          class="block relative z-10 bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
+          class="block relative z-10 shadow-xl bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
         >
           <h3
             class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
@@ -154,7 +154,7 @@
 
         <img
           src="https://images.unsplash.com/photo-1545060894-7b45236d00b3?w=1200"
-          class="absolute top-0 left-0 block w-full h-full object-cover"
+          class="absolute top-0 border border-yellow-900 left-0 block w-full h-full object-cover"
         />
       </div>
 
@@ -167,7 +167,7 @@
     </div>
     <!-- / SPACER -->
 
-    <div class="bg-gray-800">
+    <div class="bg-gray-800 text-yellow-900">
       <div
         class="mx-auto max-w-5xl flex flex-wrap justify-center items-center text-center py-20"
       >
@@ -195,11 +195,14 @@
         </a>
 
         <a href="#" class="w-full md:w-1/3 px-12">
-          <h4
-            class="mb-2 uppercase text-gray-100 text-lg font-bold tracking-widest"
+          <nuxt-link to="/home"
+            >home
+            <h4
+              class="mb-2 uppercase text-gray-100 text-lg font-bold tracking-widest"
+            >
+              Land Development
+            </h4></nuxt-link
           >
-            Land Development
-          </h4>
           <p class="text-sm md:text-lg font-serif text-gray-400">The Homes</p>
         </a>
       </div>

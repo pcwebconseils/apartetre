@@ -16,8 +16,6 @@
 
       <div class="flex py-12">
         <div class="flex-1 border-b-8 border-gray-200"></div>
-        <div class="w-32"></div>
-        <div class="flex-1 border-b-8 border-gray-200"></div>
       </div>
 
       <div
