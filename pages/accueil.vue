@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <div class="-mt-24 pt-24 w-full h-screen bg-white flex flex-wrap">
       <div
         class="px-12 md:-px-0 w-full md:w-4/12 bg-white flex items-center justify-start md:justify-end"
@@ -10,14 +10,14 @@
           <h1
             class="mb-8 text-3xl md:text-5xl text-gray-800 text-bold uppercase font-bold tracking-widest leading-tight"
           >
-            Soins<br />Spa<br />Détente
+            institut<br />Beauté<br />Détende
           </h1>
           <h2 class="text-lg md:text-2xl font-serif text-gray-500">
-            A part être, votre espace bien être.
+            {{ intro }}
           </h2>
 
           <span
-            class="hidden md:block absolute top-0 right-0 w-48 h-4 bg-blue-900 -mr-24 mt-56"
+            class="hidden md:block absolute top-0 right-0 w-48 h-4 bg-gray-900 -mr-24 mt-56"
           ></span>
         </div>
       </div>
@@ -37,13 +37,12 @@
         <h2
           class="mb-8 uppercase text-yellow-900 text-2xl font-bold tracking-widest"
         >
-          La phrase d'accroche
+          {{ titreAccroche }}
         </h2>
         <p
           class="font-serif text-gray-500 text-white md:text-xl max-w-2xl leading-loose"
         >
-          Le slogan, rappel de la ville et du nom, institut de beauté et espace
-          détente spa.
+          {{ accroche }}
         </p>
 
         <span
@@ -69,10 +68,10 @@
           <h3
             class="mb-2 uppercase text-gray-800 pl-3 text-3xl font-bold tracking-widest"
           >
-            Les soins
+            {{ soins }}
           </h3>
           <p class="text-lg md:text-xl pl-3 font-serif text-gray-400">
-            Lien vers la page de soins.
+            {{ texteSoin }}
           </p>
         </nuxt-link>
 
@@ -90,7 +89,7 @@
       <div class="w-64 bg-gray-800"></div>
     </div>
     <!-- / SPACER -->
-
+    <nuxt-link to="/">Accueil</nuxt-link>
     <div class="w-full flex items-center justify-start relative">
       <div class="w-auto md:w-3/12"></div>
 
@@ -102,10 +101,10 @@
           <h3
             class="mb-2 uppercase text-gray-800 pl-3 text-3xl font-bold tracking-widest"
           >
-            L'espace Spa
+            {{ aqua }}
           </h3>
           <p class="text-lg md:text-xl pl-3 font-serif text-gray-400">
-            lien vers l'espace aqua bien être.
+            {{ texteAqua }}
           </p>
         </nuxt-link>
 
@@ -128,8 +127,8 @@
       <div class="w-auto md:w-3/12"></div>
 
       <div class="w-full md:w-8/12 bg-gray-100 py-12 relative flex">
-        <a
-          href="#"
+        <nuxt-link
+          to="/aqua"
           class="block relative z-10 shadow-xl bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
         >
           <h3
@@ -145,7 +144,7 @@
             Un espace dédié à la détente. et encore du texte parce que nous
             allons manquer de contenu.
           </p>
-        </a>
+        </nuxt-link>
 
         <img
           src="https://images.unsplash.com/photo-1545060894-7b45236d00b3?w=1200"
@@ -202,5 +201,24 @@
         </a>
       </div>
     </div>
-  </div>
+  </main>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      intro: 'Apartêtre, un espace de détente et de relaxation',
+      titreAccroche:
+        'le titre de niveau H2 donc référencement et mot clé à inclure. ',
+      accroche:
+        'la partie accroche avec les mots clé pour institut de beauté sur Argeles sur mer.',
+      soins: 'les soins',
+      texteSoin:
+        "le texte pour la partie soin, soin du corps, épilation et autre joyeuseté d'un institut de beauté",
+      aqua: 'la partie sur le spa.',
+      texteAqua:
+        "la partie vers l'aque, espace de détente et de relaxation dans le sauna etc.",
+    }
+  },
+}
+</script>
