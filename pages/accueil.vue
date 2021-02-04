@@ -25,6 +25,7 @@
       <div class="-mt-64 md:mt-0 w-full md:flex-1">
         <img
           src="~/assets/img/roberto-nickson-YCW4BEhKluw-unsplash (3).jpg"
+          alt="Apartêtre, un espace de soin et de détente."
           class="w-full h-full object-cover"
         />
       </div>
@@ -78,6 +79,7 @@
         <img
           src="~/assets/img/chalo-garcia-i5TVtJe7TlM-unsplash.jpg"
           class="absolute top-0 border border-yellow-900 left-0 block w-full h-full object-cover"
+          alt="Les soins de l'institut."
         />
       </div>
 
@@ -89,7 +91,7 @@
       <div class="w-64 bg-gray-800"></div>
     </div>
     <!-- / SPACER -->
-    <nuxt-link to="/">Accueil</nuxt-link>
+    <!-- partie aqua -->
     <div class="w-full flex items-center justify-start relative">
       <div class="w-auto md:w-3/12"></div>
 
@@ -110,6 +112,7 @@
 
         <img
           src="~/assets/img/jared-rice-PibraWHb4h8-unsplash.jpg"
+          alt="un espace de détente, spa, sauna, modelage."
           class="absolute top-0 border border-yellow-900 left-0 block w-full h-full object-cover"
         />
       </div>
@@ -122,27 +125,22 @@
       <div class="w-64 bg-gray-800"></div>
     </div>
     <!-- / SPACER -->
-
+    <!-- partie détente -->
     <div class="w-full flex items-center justify-start relative">
       <div class="w-auto md:w-3/12"></div>
 
       <div class="w-full md:w-8/12 bg-gray-100 py-12 relative flex">
         <nuxt-link
-          to="/aqua"
+          to="/"
           class="block relative z-10 shadow-xl bg-white h-full w-full px-12 md:px-0 md:w-6/12 py-24 md:-ml-24"
         >
           <h3
             class="mb-2 uppercase text-gray-800 text-3xl font-bold tracking-widest"
           >
-            L'espace détente
+            {{ detente }}
           </h3>
           <p class="text-lg md:text-xl font-serif text-gray-400">
-            Un espace dédié à la détente. et encore du texte parce que nous
-            allons manquer de contenu.
-          </p>
-          <p class="text-lg md:text-xl font-serif text-gray-400">
-            Un espace dédié à la détente. et encore du texte parce que nous
-            allons manquer de contenu.
+            {{ texteDetente }}
           </p>
         </nuxt-link>
 
@@ -154,13 +152,13 @@
 
       <div class="w-1/12 absolute top-0 right-0 h-full bg-gray-800"></div>
     </div>
-
+    <!-- fin détente -->
     <!-- SPACER / -->
     <div class="w-full h-24 border-black bg-white flex justify-end">
       <div class="w-64 bg-gray-800"></div>
     </div>
     <!-- / SPACER -->
-
+    <!-- grid bas de page -->
     <div class="bg-gray-800 text-yellow-900">
       <div
         class="mx-auto max-w-5xl flex flex-wrap justify-center items-center text-center py-20"
@@ -201,6 +199,7 @@
         </a>
       </div>
     </div>
+    <!-- fin du main -->
   </main>
 </template>
 <script>
@@ -209,15 +208,32 @@ export default {
     return {
       intro: 'Apartêtre, un espace de détente et de relaxation',
       titreAccroche:
-        'le titre de niveau H2 donc référencement et mot clé à inclure. ',
+        'Institut de beauté à Argeles, Apartêtre est également un espace de détente et de relaxation. ',
       accroche:
-        'la partie accroche avec les mots clé pour institut de beauté sur Argeles sur mer.',
+        'Des soins classiques en institut, des cabines sensorielles, un espace de détente et de relaxation. Une nouvelle expérience bientôt sur Argeles.',
       soins: 'les soins',
       texteSoin:
-        "le texte pour la partie soin, soin du corps, épilation et autre joyeuseté d'un institut de beauté",
-      aqua: 'la partie sur le spa.',
+        'Découvrez nos différents soin, visage, corps, épilation, nos cabines de soins sont optimisées pour la détente et le bien être. Epilations, modelage, gommage, onglerie.',
+      aqua: "L'espace bien être et relaxation.",
       texteAqua:
-        "la partie vers l'aque, espace de détente et de relaxation dans le sauna etc.",
+        'Un espace de bien être et de relaxation. Notre concept vous permettra de faire une pause',
+      detente: "l'espace détente...",
+      texteDetente:
+        'Un espace de détente et de découverte pour finir votre parcours dans notre nouvel espace beauté et bien être.',
+    }
+  },
+  head() {
+    return {
+      title: 'Apartêtre, institut de beauté à Argeles sur mer.',
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Institut de beauté à Argeles, Apartêtre est un nouveau concept, toutes nos cabines de soins sont faites pour une expérience sensorielle unique. Venez découvrir nos services, soins et espaces détentes.',
+        },
+      ],
     }
   },
 }
