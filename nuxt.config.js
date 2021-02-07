@@ -48,6 +48,10 @@ export default {
     '@nuxtjs/pwa',
     // analytics
     '@nuxtjs/google-analytics',
+    // sitemap
+    '@nuxtjs/sitemap',
+    // robots
+    '@nuxtjs/robots',
   ],
   // analytics
   googleAnalytics: {
