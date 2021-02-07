@@ -5,17 +5,17 @@
         <a
           href="tel:+33660037984"
           class="block mb-2 uppercase text-gray-800 text-lg font-bold tracking-widest hover:text-yellow-600"
-          >0800 123 456</a
+          >04 30 44 34 69</a
         >
-        <a
+        <!-- <a
           href="sms:+33660037984"
           class="block mb-2 uppercase text-gray-800 text-lg font-bold tracking-widest hover:text-yellow-600"
-          >0800 123 456</a
-        >
+          >04 30 44 34 69</a
+        > -->
         <a
           href="mailto:apartetre.claire@gmail.com"
           class="block uppercase text-gray-800 text-lg font-bold tracking-widest hover:text-yellow-600"
-          >mail@apartetre.fr</a
+          >Contactez nous !</a
         >
       </div>
 

@@ -18,7 +18,7 @@
         <nuxt-link
           to="/"
           class="border border-yellow-900 text-yellow-900 rounded p-4"
-          >Go Accueil</nuxt-link
+          >Go Home</nuxt-link
         >
       </div>
     </div>

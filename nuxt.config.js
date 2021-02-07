@@ -12,7 +12,7 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
-      /*       {
+      {
         type: 'text/javascript',
         id: 'hs-script-loader',
         src: '//js.hs-scripts.com/9124487.js',
@@ -20,7 +20,6 @@ export default {
         async: true,
         defer: true,
       },
- */
     ],
   },
 
