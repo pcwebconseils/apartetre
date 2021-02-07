@@ -57,6 +57,11 @@ export default {
   googleAnalytics: {
     id: 'G-63JYWE5X7F',
   },
+  //  sitemap
+  sitemap: {
+    hostname: 'https://apartetre.fr/',
+    gzip: true,
+  },
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
 
