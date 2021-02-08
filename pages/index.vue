@@ -195,7 +195,7 @@
             <h4
               class="mb-2 uppercase text-gray-100 text-lg font-bold tracking-widest"
             >
-              Un espace aquatique.
+              Un espace aqua bien être.
             </h4>
           </section>
           <p class="text-sm md:text-lg font-serif text-gray-400">
@@ -211,9 +211,9 @@
 export default {
   data() {
     return {
-      intro: 'Apartêtre, un espace de détente et de relaxation',
+      intro: 'A part être, un espace de détente et de relaxation',
       titreAccroche:
-        'Institut de beauté à Argeles, Apartêtre est également un espace de détente et de relaxation. ',
+        'Institut de beauté à Argeles, A part être est également un espace de détente et de relaxation. ',
       accroche:
         'Des soins classiques en institut, des cabines sensorielles, un espace de détente et de relaxation. Une nouvelle expérience bientôt sur Argeles.',
       soins: 'les soins',
@@ -236,7 +236,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Institut de beauté à Argeles, Apartêtre est un nouveau concept, toutes nos cabines de soins sont faites pour une expérience sensorielle unique. Venez découvrir nos services, soins et espaces détentes.',
+            'Institut de beauté à Argeles, A part être est un nouveau concept, toutes nos cabines de soins sont faites pour une expérience sensorielle unique. Venez découvrir nos services, soins et espaces détentes.',
         },
       ],
     }
