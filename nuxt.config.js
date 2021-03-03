@@ -46,17 +46,11 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // analytics
-    '@nuxtjs/google-analytics',
     // sitemap
     '@nuxtjs/sitemap',
     // robots
     '@nuxtjs/robots',
   ],
-  // analytics
-  googleAnalytics: {
-    id: 'G-63JYWE5X7F',
-  },
   //  sitemap
   sitemap: {
     hostname: 'https://apartetre.fr/',
