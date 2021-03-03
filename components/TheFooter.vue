@@ -3,7 +3,7 @@
     <div class="bg-white mx-auto py-12">
       <div class="flex justify-around px-12 md:px-24">
         <a
-          href="tel:+33660037984"
+          href="tel:+33430443469"
           class="block mb-2 uppercase text-gray-800 text-lg font-bold tracking-widest hover:text-yellow-600"
           >04 30 44 34 69</a
         >
